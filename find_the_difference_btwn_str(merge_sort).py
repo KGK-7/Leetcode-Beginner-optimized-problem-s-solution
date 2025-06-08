@@ -35,10 +35,10 @@ class Solution:
                 return sorted_t[i]
 
         return sorted_t[-1]        
-# Example usage:
+
 if __name__ == "__main__":
     s = "abcd"
     t = "abcde"
     solution = Solution()
-    print(solution.findTheDifference(s, t))  # Output: 'e'
+    print(solution.findTheDifference(s, t))
     
