@@ -41,4 +41,10 @@ if __name__ == "__main__":
     t = "abcde"
     solution = Solution()
     print(solution.findTheDifference(s, t))
+# Output: e
+# Explanation: The character 'e' is the extra character in string t.
+# Time Complexity: O(n log n) due to the mergesort algorithm
+# Space Complexity: O(n) for the sorted arrays
+# Note: This implementation uses mergesort to sort the characters in both strings
+
     
